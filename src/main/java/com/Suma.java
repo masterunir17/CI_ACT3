@@ -7,7 +7,7 @@ package com;
 public class Suma {
     public double getSuma(double a, double b) {
         // Se multiplica en vez de sumar a posta, para que los test fallen
-        return a * b;
+        return a + b;
     }
 
     public double incrementa(double a) {
