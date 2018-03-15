@@ -1,5 +1,6 @@
 pipeline {
-   stage('Preparacion') { // for display purposes
+agent any   
+stage('Preparacion') { // for display purposes
       // Get some code from a GitHub repository
       git 'https://github.com/masterunir17/CI_ACT3.git'
    }
