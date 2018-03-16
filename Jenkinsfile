@@ -9,9 +9,8 @@ pipeline {
 		   }
 		stage('Compilar') { // Genera los ficheros .class con los fuentes .java
 			steps {
-				//withMaven(maven : 'maven 3.5.0'){
 				sh 'mvn compile'
-			     	//	}
+			     	
 				}			
 			}
 		stage('Test') { // Ejecuta los comandos de JUnt - Pruebas unitarias
