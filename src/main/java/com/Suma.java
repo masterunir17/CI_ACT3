@@ -1,12 +1,12 @@
 package com;
 
 /**
- * Clase tonta para poder hacer test de junit con ella
+ * Clase para poder hacer test de junit con ella
  * 
  */
 public class Suma {
     public double getSuma(double a, double b) {
-        // Se multiplica en vez de sumar a posta, para que los test fallen
+        // Operacion
         return a + b;
     }
 

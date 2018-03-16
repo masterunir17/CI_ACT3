@@ -1,9 +1,7 @@
 package com;
 
 /**
- * Clase tonta para hacer con ella test de junit
- * 
- * @author Chuidiang
+ * Clase para hacer con ella test de junit
  * 
  */
 public class Resta {
