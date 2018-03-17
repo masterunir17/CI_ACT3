@@ -7,7 +7,7 @@ package com;
 public class Suma {
     public double getSuma(double a, double b) {
         // Operacion
-        return a * b;
+        return a + b;
     }
 
     public double incrementa(double a) {
