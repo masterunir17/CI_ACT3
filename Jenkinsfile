@@ -23,6 +23,11 @@ pipeline {
 				sh 'mvn package'
 			}		     
 		    }
+		stage('Instalacion') { // Crear el .Jar validado
+			steps {
+				sh 'mvn intall'
+			}		     
+
 		}
 
 	}
