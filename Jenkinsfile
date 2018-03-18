@@ -25,7 +25,7 @@ pipeline {
 		    }
 		stage('Instalacion') { // Crear el .Jar validado
 			steps {
-				sh 'mvn clean install'
+				sh 'sudo mvn clean install'
 			}		     
 
 		}
