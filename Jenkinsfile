@@ -15,12 +15,12 @@ pipeline {
 			}
 		stage('Test') { // Ejecuta los comandos de JUnt - Pruebas unitarias
 			steps {
-				sh 'mvn test'
+				sh '/usr/local/src/apache-maven-3.5.2/bin/mvn test'
 			}		     
 		    }
 		stage('Empaquetado') { // Crear el .Jar validado
 			steps {
-				sh 'mvn package'
+				sh '/usr/local/src/apache-maven-3.5.2/bin/mvn package'
 			}		     
 		    }
 		
