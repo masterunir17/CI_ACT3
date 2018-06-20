@@ -9,7 +9,7 @@ pipeline {
 		   }
 		stage('Compilar') { // Genera los ficheros .class con los fuentes .java
 			steps {
-				sh 'mvn compile'
+				sh '/usr/local/src/apache-maven-3.5.2/bin/mvn compile'
 			     	
 				}			
 			}
